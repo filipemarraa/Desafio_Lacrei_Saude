@@ -1,30 +1,63 @@
-# React + TypeScript + Vite
+# Desafio Lacrei Saúde
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto foi desenvolvido como parte do desafio front-end da Lacrei Saúde. É uma aplicação web construída com o objetivo de fornecer uma interface amigável e intuitiva para os usuários.
 
-Currently, two official plugins are available:
+## Link do Deploy
+- [Aplicação no Vercel](https://desafio-lacrei-saude-five.vercel.app/) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Design
+- [Design no Figma](https://www.figma.com/design/CItS5uEtcS33N4BNMxVdzS/Desafio?node-id=2-15) 
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
+- React
+- TypeScript
+- Git
+- GitHub
+- Styled Components
+- Vite
+- Jest
+- Testing Library
+- Vercel
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Aplicação
 
-- Configure the top-level `parserOptions` property like this:
+### Desktop
+![Desktop Header](https://github.com/filipemarraa/Desafio_Lacrei_Saude/blob/main/Fotos/Desktop%201.png)
+![Desktop Footer](https://github.com/filipemarraa/Desafio_Lacrei_Saude/blob/main/Fotos/Desktop%202.png)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+### Tablet
+![Tablet](https://github.com/filipemarraa/Desafio_Lacrei_Saude/blob/main/Fotos/Tablet.png)
+
+### Telefone
+![Telefone](https://github.com/filipemarraa/Desafio_Lacrei_Saude/blob/main/Fotos/Telefone.png)
+
+## Instalação
+
+### Clone o repositório
+```bash
+git clone https://github.com/filipemarraa/Desafio_Lacrei_Saude.git
+cd Desafio_Lacrei_Saude
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Instale as dependências
+```bash
+npm install
+```
+
+## Uso
+
+### Iniciar o servidor 
+```bash
+npm run dev
+```
+
+### Vá no navegador para `http://localhost:5173/`
+
+## Contato 
+
+### Se você tiver alguma dúvida ou quiser discutir este projeto, sinta-se à vontade para entrar em contato comigo através do meu [Linkedin](https://br.linkedin.com/in/filipemarra).
+
+
+
+
+
