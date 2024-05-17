@@ -30,4 +30,4 @@ export const icons: IconsProps[] = [
         icon: email,
         alt: 'ícone Email',
     },
-]   
+];    
